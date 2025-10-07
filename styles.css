@@ -20,16 +20,19 @@ body {
 
 .banner {
     background-color: #4a4a3a;
-    padding: 20px;             /* Add some vertical space */
-    text-align: center;        
-    color: #908f75;            /* Title text color */
-    font-family: 'Amarillo', sans-serif; 
+    padding: 2px;             /* Add some vertical space */
+}
+
+h1 {
+  color: #908f75;
+  font-size: 40px;
+  text-align: center; 
+  font-family: 'Amarillo', sans-serif;                   
 }
 
 h2 {
   color: #a19478
 }
-
 
 img {
   width: 300px;  /* Set width */

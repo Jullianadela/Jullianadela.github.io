@@ -27,6 +27,8 @@ h1 {
   font-size: 40px;
   font-family: 'Amarillo', sans-serif;
   color: #908f75;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
 }
 
 h2 {
@@ -52,6 +54,14 @@ h2 {
   background: #D9D6B8;
   border-radius: 25%;
 }
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
 
 img {
   width: 300px;

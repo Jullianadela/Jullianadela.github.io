@@ -12,11 +12,13 @@ body {
   background: #EBE6D2;
   text-align: center;
   font-family: 'Fraunces', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Georgia, Times, 'Times New Roman';
+  margin: 0;
+  padding: 0;
 }
 
 .banner {
   background-color: #4a4a3a;
-  padding: 2px 0;
+  padding: 10px 0;
 }
 
 h1, h2 {
@@ -28,7 +30,6 @@ h1 {
   font-family: 'Amarillo', sans-serif;
   color: #908f75;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-
 }
 
 h2 {
@@ -39,31 +40,28 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.projects h2 {
-  width: 100%;
-  flex-basis: 100%;
-  text-align: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .project {
-  width: 30%;
-  margin: 10px;
-  padding: 20px 10px;
+  width: 300px;
   background: #D9D6B8;
-  border-radius: 25%;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
-
-img {
-  width: 300px;
+.project img {
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }

@@ -1,15 +1,11 @@
 @font-face {
   font-family: 'Fraunces';
   src: url('./fonts/Fraunces.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Amarillo';
   src: url('./fonts/Amarillo.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 body {
@@ -19,31 +15,45 @@ body {
 }
 
 .banner {
-    background-color: #4a4a3a;
-    padding: 2px;             /* Add some vertical space */
+  background-color: #4a4a3a;
+  padding: 2px 0;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 h1 {
-  color: #908f75;
   font-size: 40px;
-  text-align: center; 
-  font-family: 'Amarillo', sans-serif;                   
+  font-family: 'Amarillo', sans-serif;
+  color: #908f75;
 }
 
 h2 {
-  color: #a19478
+  color: #a19478;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects h2 {
+  width: 100%;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.project {
+  width: 30%;
+  margin: 10px;
+  padding: 20px 10px;
+  background: #D9D6B8;
+  border-radius: 25%;
 }
 
 img {
-  width: 300px;  /* Set width */
-  height: auto;  /* Adjust height proportionally */
-}
-
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
-.project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: rgb(255, 255, 255); 
-border-radius: 25%;
+  width: 300px;
+  height: auto;
 }

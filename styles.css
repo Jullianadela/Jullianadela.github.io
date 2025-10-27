@@ -21,11 +21,8 @@ body {
   padding: 10px 0;
 }
 
-h1, h2 {
-  text-align: center;
-}
-
 h1 {
+  text-align: center;
   font-size: 40px;
   font-family: 'Amarillo', sans-serif;
   color: #908f75;
@@ -33,7 +30,13 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   color: #a19478;
+}
+
+h3 {
+  color: #6b6b58;
+  margin-bottom: 10px;
 }
 
 .projects {

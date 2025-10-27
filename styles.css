@@ -56,16 +56,21 @@ h2 {
 .project:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Links inside project */
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Title hover */
+.project h3:hover {
+  text-decoration: underline;
   cursor: pointer;
 }
 
-.project img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
+/* Image styling */
 .project img {
   max-width: 100%;
   height: auto;
@@ -75,9 +80,9 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* add a smooth zoom + subtle glow when hovered */
+/* Image hover zoom */
 .project img:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
-
